@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Hands-on</title>
+     <style>
+     body {
+       background: red;
+       justify-content: center;
+     }
+     h1 {
+       background-color: pink;
+       color: red;
+       padding: 10px;
+       text-align: center;
+     }
+     button {
+       width: 50%;
+       border-radius: 10px;
+       margin-left: 25%;
+       background: black;
+       color: white;
+       padding: 5px;
+       transition: 0.4s;
+       font-size: large;
+       text-decoration: none;
+       text-align: justify;
+     }
+     button:hover {
+       background: white;
+       color: black;
+     }
+     button:active {
+       background: pink;
+       color: red;
+     }
+     </style>
+</head>
+<body>
+     <h1>"Javascript addEventListener()Hands-On"</h1>
+     <button id="Click A">Button 1</button>
+     <button id="Click B">Button 2</button>
+     <button id="Click C">Button 3</button>
+     
+     <script>
+          function myfunction(){
+               alert("Button 1 was clicked")
+          };
+          
+          function myfunction(){
+               alert("Button 2 was clicked")
+          };
+          
+          function myfunction(){
+               alert("Button 3 was clicked")
+          };
+          
+          document.getElementById("Click A, Click B, Click C").addEventListener("click myfunction");
+     </script>
+</body>
+</html>
